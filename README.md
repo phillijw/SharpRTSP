@@ -1,8 +1,8 @@
 Sharp RTSP
 ==========
 
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/ngraziano/SharpRTSP?branch=master&svg=true)](https://ci.appveyor.com/project/ngraziano/sharprtsp)
-[![Coverage Status](https://coveralls.io/repos/github/ngraziano/SharpRTSP/badge.svg?branch=master)](https://coveralls.io/github/ngraziano/SharpRTSP?branch=master)
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/phillijw/SharpRTSP?branch=master&svg=true)](https://ci.appveyor.com/project/phillijw/sharprtsp)
+[![Coverage Status](https://coveralls.io/repos/github/phillijw/SharpRTSP/badge.svg?branch=master)](https://coveralls.io/github/phillijw/SharpRTSP?branch=master)
 
 A C# library to handle RTSP connections.
 
