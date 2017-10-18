@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <Company>SUEZ</Company>
+
+    <Authors />
+
+    <Copyright>Copyright © SUEZ 2011</Copyright>
+
+    <Description />
+
+    <AssemblyName>Rtsp.Tests</AssemblyName>
+
+    <RootNamespace>Rtsp.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sdp\Data\test1.sdp" />
+    <None Remove="Sdp\Data\test2.sdp" />
+    <None Remove="Sdp\Data\test3.sdp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sdp\Data\test1.sdp" />
+    <EmbeddedResource Include="Sdp\Data\test2.sdp" />
+    <EmbeddedResource Include="Sdp\Data\test3.sdp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+    <PackageReference Include="NSubstitute" Version="3.0.1" />
+    <PackageReference Include="NUnit" Version="3.8.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RTSP.Core\RTSP.Core.csproj" />
+  </ItemGroup>
+
+</Project>
